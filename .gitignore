@@ -1,2 +1,3 @@
 /django-env/
 .idea
+/ratenyu/db.sqlite3
