@@ -1,0 +1,194 @@
+body {
+  text-align: center;
+}
+
+.navbar {
+  background: #702B9D;
+  overflow: hidden;
+  margin: -0.1%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100.5%;
+}
+
+.navbar a {
+  float: left;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100px;
+  height: 60px;
+  
+}
+
+.navbar a:hover {
+  background-color: black;
+  color: #FFFFFF;
+}
+
+.navbar-right {
+  float: right;
+  padding-right: 5px;
+}
+
+.title {
+  font-size: 20px;
+  font-family: inter-semibold;
+  color: white;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 10px;
+  padding-left: 30px;
+  width: 100px;
+  height: 60px;
+  
+}
+
+.nyu-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 300px;
+  background-image: url('/static/images/nyulogo.png');
+  background-size: 100% 100%;
+}
+
+h1 {
+  font-family: inter-semibold;
+  font-weight: 700;
+}
+
+h1.welcome {
+  font-size: 75px;
+  /*font-size: 3.5vw;*/ /* uncomment for text resizing */
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  line-height: 40%;
+}
+
+h2 {
+  font-family: inter-semibold;
+  font-weight: 700;
+}
+
+h2.welcome {
+  font-size: 35px;
+  /*font-size: 2.0vw;*/ /* uncomment for text resizing */
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+form.search {
+  display: inline-block;
+  flex-wrap: nowrap;
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+input {
+  font-family: inter-regular;
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  padding: 7px;
+}
+
+input.search {
+  font-size: 18px;
+  width: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+button {
+  font-family: inter-regular;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+
+button.search {
+  font-size: 18px;
+  outline: none;
+  border: 1px solid darkgrey;
+  border-radius: 4px;
+  padding: 7px;
+}
+
+.dropdown {
+  width: 25%;
+  font-size: 18px;
+  font-family: inter-regular;
+  background: #FFFFFF;
+  cursor: pointer;
+  border: 1px solid darkgrey;
+  border-radius: 4px;
+  padding: 7px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  font-family: inter-regular;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  /*padding: 14px 16px;
+  text-decoration: none;*/
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: black;
+}
+
+@font-face {
+  font-family: 'inter-bold';
+  src: Local('Inter-Bold'), url('/static/fonts/Inter-Bold.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'inter-regular';
+  src: Local('Inter-Bold'), url('/static/fonts/Inter-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'inter-medium';
+  src: Local('Inter-Bold'), url('/static/fonts/Inter-Medium.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'inter-black';
+  src: Local('Inter-Bold'), url('/static/fonts/Inter-Black.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'inter-light';
+  src: Local('Inter-Bold'), url('/static/fonts/Inter-Light.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'inter-semibold';
+  src: Local('Inter-Bold'), url('/static/fonts/Inter-Semibold.ttf') format("truetype");
+}
