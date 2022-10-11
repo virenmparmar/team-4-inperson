@@ -2,4 +2,10 @@ __pycache__/
 /django-env/
 .idea
 /ratenyu/db.sqlite3
+/ratenyu/ratenyu/db.sqlite3
+/ratenyu/static/admin
 .env
+
+/ratenyu/.elasticbeanstalk/*
+/ratenyu/!.elasticbeanstalk/*.cfg.yml
+/ratenyu/!.elasticbeanstalk/*.global.yml

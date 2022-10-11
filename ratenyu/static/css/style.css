@@ -49,7 +49,7 @@ body {
   padding-left: 30px;
   width: 100px;
   height: 60px;
-  
+
 }
 
 .nyu-logo {
@@ -190,5 +190,5 @@ li a:hover {
 
 @font-face {
   font-family: 'inter-semibold';
-  src: Local('Inter-Bold'), url('/static/fonts/Inter-Semibold.ttf') format("truetype");
+  src: Local('Inter-Bold'), url('/static/fonts/Inter-SemiBold.ttf') format("truetype");
 }
