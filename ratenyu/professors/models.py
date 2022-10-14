@@ -17,7 +17,7 @@ class Review(models.Model):
     rating = models.PositiveIntegerField(choices=[1, 2, 3, 4, 5])
     classKey = models.ForeignKey(Class, on_delete=models.CASCADE)
     user = models.CharField(max_length=250)
-    pub_date = models.DateTimeField('date published')
+    pubDate = models.DateTimeField('date published')
     
     def __str__(self):
         return self.reviewText
