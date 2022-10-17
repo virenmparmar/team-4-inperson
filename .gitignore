@@ -5,6 +5,7 @@ __pycache__/
 /ratenyu/ratenyu/db.sqlite3
 /ratenyu/static/admin
 .env
+.DS_store
 
 /ratenyu/.elasticbeanstalk/*
 /ratenyu/!.elasticbeanstalk/*.cfg.yml
