@@ -8,7 +8,7 @@ class Courses(models.Model):
     courseId = models.CharField(max_length=250, primary_key=True)
     courseTitle = models.CharField(max_length=250)
     courseSubjectCode = models.CharField(max_length=20, blank = True)
-    courseNumber = models.CharField(max_length=20, blank = True)
+    catalogNumber = models.CharField(max_length=20, blank = True)
     courseDescription = models.TextField(blank = True)
 
 
@@ -24,7 +24,7 @@ class Class(models.Model):
     lastOffered = models.CharField(max_length=250, blank = True)
     location = models.CharField(max_length=250, blank = True)
     classDescription = models.TextField(blank = True)
-    capacity = models.PositiveIntegerField(blank = True)
+    enrollCapacity = models.PositiveIntegerField(blank = True)
 
     
     def __str__(self):
