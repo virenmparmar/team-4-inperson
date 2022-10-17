@@ -1,8 +1,10 @@
-from django.db import models
 import datetime
+
+from django.db import models
 from django.utils import timezone
 
 from ratenyu.courses.models import Class
+
 
 # Create your models here.
 class Professor(models.Model):

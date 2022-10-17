@@ -2,6 +2,7 @@ from django.db import models
 
 from ratenyu.professors.models import Professor
 
+
 # Create your models here.
 class Courses(models.Model):
     courseId = models.CharField(max_length=250, primary_key=True)
