@@ -18,7 +18,7 @@ class Professor(models.Model):
 class Review(models.Model):
     review_text = models.TextField()
     rating = models.PositiveIntegerField(choices=[1, 2, 3, 4, 5])
-    class_id = models.ForeignKey(to = Class, on_delete=models.CASCADE)
+    class_id = models.ForeignKey(to=Class, on_delete=models.CASCADE)
     user = models.CharField(max_length=250)
     pub_date = models.DateTimeField('date published')
     

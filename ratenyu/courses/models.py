@@ -15,8 +15,8 @@ class Courses(models.Model):
 
 class Class(models.Model):
     class_id = models.CharField(max_length=250, primary_key=True)
-    professor = models.ForeignKey(to = Professor, on_delete=models.CASCADE)
-    course = models.ForeignKey(to = Courses, on_delete=models.CASCADE)
+    professor = models.ForeignKey(to=Professor, on_delete=models.CASCADE)
+    course = models.ForeignKey(to=Courses, on_delete=models.CASCADE)
     class_type = models.CharField(max_length=250, blank=True)
     class_section = models.CharField(max_length=250, blank=True)
     term = models.CharField(max_length=250, blank=True)
