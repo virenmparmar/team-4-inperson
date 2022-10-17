@@ -23,7 +23,6 @@ class Class(models.Model):
     term = models.CharField(max_length=250, blank = True)
     lastOffered = models.CharField(max_length=250, blank = True)
     location = models.CharField(max_length=250, blank = True)
-    classDescription = models.TextField(blank = True)
     enrollCapacity = models.PositiveIntegerField(blank = True)
 
     
