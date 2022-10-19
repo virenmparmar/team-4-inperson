@@ -5,6 +5,9 @@ __pycache__/
 /ratenyu/ratenyu/db.sqlite3
 /ratenyu/static/admin
 .env
+.DS_store
+/ratenyu/courses/migrations/
+/ratenyu/professors/migrations/
 
 /ratenyu/.elasticbeanstalk/*
 /ratenyu/!.elasticbeanstalk/*.cfg.yml
