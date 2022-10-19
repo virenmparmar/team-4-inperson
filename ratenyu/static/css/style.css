@@ -1,5 +1,6 @@
 /* For navbar   */
 
+
 /*nav bar class*/
 .navbar {
   background: #702B9D;
@@ -225,6 +226,7 @@ ul.detail-side-links {
   text-align: left;
 }
 
+
 /*put the dropdown for sorting under the name title, course id, course description, */
 .detail-dropdown {
   margin: auto;
@@ -254,6 +256,7 @@ div.review {
 .review > p {
   margin-right: 20px;
 }
+
 
 /*review takes up 10/11 of width; grade, review date, rating take up 1/11*/
 div.review > p:nth-of-type(2) {
